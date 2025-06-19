@@ -13,6 +13,7 @@ Gamezone experienced strong sales growth from 2019 to 2020, with annual revenue 
 
 **Data Sources:** This data comes from our online ordering system, which captures transaction-level details of customer purchases.
 **Time Period:** The dataset spans from January 1, 2019, to February 28, 2021. However, for this analysis, only records between January 1, 2019, and December 31, 2020 are included to ensure consistency and completeness.
+
 **Key Tables/Entities:**
 - **Orders Table:** Includes order ID, user ID, purchase timestamp, ship timestamp, product name, product ID, price in USD, purchase platform, marketing channel and country code. Over 21,000 transactions were recorded in this dataset.
 - **Region Table:** Lists all country codes (e.g.,VN, UK) and region accordingly (e.g., NA, EMEA)
@@ -50,7 +51,7 @@ Gamezone experienced strong sales growth from 2019 to 2020, with annual revenue 
 - By purchase platform: The website is the primary sales channel, contributing 97% of total revenue ($5.5M) with an AOV of $300. Meanwhile, the mobile app underperforms, bringing in only $138K in sales and an AOV of $80.
 
 ## Recommendations
-Maximizing Product Potential
+#### Maximizing Product Potential
 
 - Double Down on High-Performers
     - **Expand winning categories** (e.g., Gaming Monitors, Nintendo Switch, PS5 Bundles) by introducing more variety (new colors, premium editions, or limited bundles) to attract repeat buyers and strengthen market presence.
@@ -61,7 +62,7 @@ Maximizing Product Potential
     - Suggest upgrades (upsell) or complementary items (cross-sell) during the purchase journey
     - Encourage bulk purchase (e.g., “Buy 2, get 10% off” or free shipping over a set threshold)
 
-Drive Repeat Purchase and Customer Retention
+#### Drive Repeat Purchase and Customer Retention
 
 - **Loyalty & Lifecycle Marketing**
     - Launch a point-based or tiered loyalty program that rewards spending with perks like exclusive discounts, early access to new drops, free shipping, or VIP offers.
@@ -73,14 +74,14 @@ Drive Repeat Purchase and Customer Retention
     - Build community engagement through user-generated content, social contests, and milestone celebrations (e.g., birthdays or order anniversaries).
     - Introduce referral rewards to activate word-of-mouth acquisition.
 
-Optimizing Marketing Channels and Purchase Platforms
+#### Optimizing Marketing Channels and Purchase Platforms
 
 - **Expand Affiliate Partnerships**: Increase reach and AOV by partnering with tech influencers and deal platforms. Tailor commission tiers and creative assets to partner type.
 - Utilize both purchase platforms to get use of their strength.
     - Website - Acquisition Engine: Enhance discoverability of the website through search engine optimization and top-funnel content. Use the website’s strength in SEO and product research to attract first-time buyers, especially for high-consideration items like laptops.
     - Mobile App - Retention and Engagement Engine: Invest in app-specific perks (e.g., exclusive offers, flash deals, and in-app loyalty rewards) and improve personalization via behavioral tracking and push notifications.
 
-Regional Growth Strategies
+#### Regional Growth Strategies
 
 - **Focus on High-Performing Regions - North America and EMEA**
     - Continue allocating marketing and fulfillment resources to these high-performing regions.
