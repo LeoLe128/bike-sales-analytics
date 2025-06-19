@@ -8,6 +8,7 @@ Gamezone experienced strong sales growth from 2019 to 2020, with annual revenue 
 ## Objectives
 ## Data overview
 ![gamezone erd drawio](https://github.com/user-attachments/assets/24e834e0-66fb-4299-8808-6308a14f0a1e)
+
 **Data Sources:** This data comes from our online ordering system, which captures transaction-level details of customer purchases.
 **Time Period:** The dataset spans from January 1, 2019, to February 28, 2021. However, for this analysis, only records between January 1, 2019, and December 31, 2020 are included to ensure consistency and completeness.
 **Key Tables/Entities:**
