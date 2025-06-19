@@ -7,7 +7,9 @@ I conduct this analysis due to the Business Development Department to extract in
 Gamezone experienced strong sales growth from 2019 to 2020, with annual revenue surging by 163% amid the pandemic. The U.S. market alone contributed approximately 50% of total revenue. Gaming Monitors, Nintendo Switch, and PlayStation Bundles consistently accounted for 85% of revenue. While both unique and repeat customer counts doubled in 2020, the repeat purchase rate declined slightly from 2.1% to 1.9%, indicating difficulty driving second purchases. The direct marketing channel remained the primary revenue driver, generating 85% of total sales, while the website dominated as the main purchase platform with 97% of total revenue.
 ## Objectives
 ## Data overview
-![gamezone erd drawio](https://github.com/user-attachments/assets/24e834e0-66fb-4299-8808-6308a14f0a1e)
+<p align="center">
+  <img width="460" height="300" src="[https://picsum.photos/460/300](https://github.com/user-attachments/assets/24e834e0-66fb-4299-8808-6308a14f0a1e)">
+</p>
 
 **Data Sources:** This data comes from our online ordering system, which captures transaction-level details of customer purchases.
 **Time Period:** The dataset spans from January 1, 2019, to February 28, 2021. However, for this analysis, only records between January 1, 2019, and December 31, 2020 are included to ensure consistency and completeness.
