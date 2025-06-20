@@ -18,7 +18,10 @@ Gamezone experienced strong sales growth from 2019 to 2020, with annual revenue 
 - **Orders Table:** Includes order ID, user ID, purchase timestamp, ship timestamp, product name, product ID, price in USD, purchase platform, marketing channel and country code. Over 21,000 transactions were recorded in this dataset.
 - **Region Table:** Lists all country codes (e.g.,VN, UK) and region accordingly (e.g., NA, EMEA)
 **Data Quality Notes:** Several data quality issues were identified and addressed during the preprocessing stage (e.g., missing values, inconsistent product names). All issues, transformations and fixes (if possible) are documented in the issue log for full transparency.
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dcc3033a-b617-4518-9f42-da6127101191"/>
+</p>
+![gamezone eda viz](https://github.com/user-attachments/assets/dcc3033a-b617-4518-9f42-da6127101191)
 ## Sales trend and growth rates
 - Between 2019 and 2020, Gamezone generated an average annual revenue of $2.8 million with approximately 10,000 orders per year.
 - In 2020, sales experienced a significant 163% increase compared to 2019, largely driven by the surge in online shopping during the pandemic.
