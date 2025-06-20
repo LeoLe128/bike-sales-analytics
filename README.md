@@ -21,7 +21,7 @@ Gamezone experienced strong sales growth from 2019 to 2020, with annual revenue 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/dcc3033a-b617-4518-9f42-da6127101191"/>
 </p>
-![gamezone eda viz](https://github.com/user-attachments/assets/dcc3033a-b617-4518-9f42-da6127101191)
+
 ## Sales trend and growth rates
 - Between 2019 and 2020, Gamezone generated an average annual revenue of $2.8 million with approximately 10,000 orders per year.
 - In 2020, sales experienced a significant 163% increase compared to 2019, largely driven by the surge in online shopping during the pandemic.
