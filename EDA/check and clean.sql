@@ -14,10 +14,9 @@ Script Purpose:
 	Usage notes:
 		- Detect, investigate then document all issues found along with
 		their resolution in the issue log.
-		- Can be used to check the data after cleaning
 		- Ensure transparency
 		- Solvable data issues will be addressed when creating the view 
-		in the xxx script.
+		in the cleaned_data_view script.
 =================================================================
 */
 
