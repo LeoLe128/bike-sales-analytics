@@ -1,6 +1,6 @@
 /*
 =================================================================
-Cleaning and quality checks 
+Data quality checks 
 =================================================================
 Script Purpose:
 	This script explores all the fields in the data set to check
