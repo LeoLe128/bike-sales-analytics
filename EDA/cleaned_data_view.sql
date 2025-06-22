@@ -1,3 +1,14 @@
+/*
+===============================================================================
+This script creates two SQL view named 'cleaned_order_data' and 'cleaned_region_data'
+===============================================================================
+Script Purpose:
+	This view is designed to extract a cleaned and refined subset of transactional 
+	and regional information from the raw 'orders' and 'region' tables. It addresses 
+	common data quality issues such as missing values, inconsistent formatting, 
+	and irrelevant columns, making the data ready for reporting and analysis.
+===============================================================================
+*/
 --Create view aka cleaned order data ready for analysis
 IF OBJECT_ID('cleaned_order_data', 'V') IS NOT NULL
     DROP VIEW cleaned_order_data;
