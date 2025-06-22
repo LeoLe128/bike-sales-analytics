@@ -1,28 +1,22 @@
 /*
-===================================================================
-EDA
-===================================================================
-Purpose:
-	This report consolidates key customer metrics and behaviors
+===============================================================================
+Exploratory Data Analysis (EDA)
+===============================================================================
+Script Purpose:
+    This script explores key metrics and patterns in the 'cleaned_order_data' 
+    and 'cleaned_region_data' tables. It includes:
+    
+    - Sales trends and growth (monthly, yearly).
+    - Regional, product, platform, and marketing channel performance.
+    - Proportional contributions of different entities.
+    - Average order value (AOV) and customer behavior insights.
+    - Basic anomaly checks (e.g., multiple users per order).
 
-Highlights:
-	1. Gather essential fields such as names, ages, and transaction details.
-	2. Segments customers into categories (VIP, Regular, New) and age group.
-	3. Aggregates customer-level metrics:
-		- Total orders
-		- Total sales
-		- Total quantity purchased
-		- Total products
-		- Lifespan (in months)
-	4. Calculate valuable KPIs:
-		- Recency (months since last order)
-		- Average order value
-		- Average monthly spend
-===================================================================
+Usage Notes:
+    - Run this after loading and cleaning data.
+    - This is intended for exploratory purposes; results may guide deeper analysis or reporting.
+===============================================================================
 */
-/*-----------------------------------------------------------------
-1. Sales and growth trends in the 2 recent years (2019 - 2020)
-------------------------------------------------------------------*/
 --Total sales and growth by month
 WITH monthly_sales AS (
     SELECT 
