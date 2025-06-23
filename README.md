@@ -10,7 +10,7 @@
   * [Key product performance](#key-product-performance)
   * [Customers Growth and Repeat Purchase Trends](#customers-growth-and-repeat-purchase-trends)
   * [Sales by Marketing Channel and Purchase Platform](#sales-by-marketing-channel-and-purchase-platform)
-* [Recommendations](#recommendation)
+* [Recommendations](#recommendations)
 * [Clarifying Questions, Assumptions, and Caveats](#clarifying-questions-assumptions-and-caveats)
 
 ## Project Background
