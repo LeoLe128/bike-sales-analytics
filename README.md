@@ -1,24 +1,26 @@
 # Gamezone Sales Analysis
 **Table of Contents**
 
-* [Project Background](#Project Background)
-* [2. Project Goals](#2-project-goals)
-* [3. Architecture & Technology Stack](#3-architecture--technology-stack)
-* [4. Data Sources](#4-data-sources)
-* [5. Data Model & Schema](#5-data-model--schema)
-* [6. ETL/ELT Processes](#6-etlelt-processes)
-* [7. Data Governance & Quality](#7-data-governance--quality)
-* [8. How to Access & Use the Data](#8-how-to-access--use-the-data)
-* [9. Project Structure](#9-project-structure)
+* [Project Background](#project-background)
+* [Objectives](#objectives)
+* [Executive Summary](#executive-summary)
+* [Data overview](#data-overview)
+* [Insights Deep Dive](#insights-deep-dive)
+  * [Sales trend and growth rates](#sales-trend-and-growth-rates)
+  * [Key product performance](#key-product-performance)
+  * [Customers Growth and Repeat Purchase Trends](#customers-growth-and-repeat-purchase-trends)
+  * [Sales by Marketing Channel and Purchase Platform](#sales-by-marketing-channel-and-purchase-platform)
+* [Recommendations](#recommendation)
+* [Clarifying Questions, Assumptions, and Caveats](#clarifying-questions-assumptions-and-caveats)
 
 ## Project Background
 Gamezone is an e-commerce company founded in 2018, specializing in new and refurbishsed gaming products all around the world. 
 Their primary selling channel is their online website but they also have a mobile app and they use various other marketing channels to find their potential customers.
 I conduct this analysis due to the Business Development Department to extract insights and deliver recommendations to improve performance across sales, product and marketing teams.
-## Executive Summary
-Gamezone experienced strong sales growth from 2019 to 2020, with annual revenue surging by 163% amid the pandemic. The U.S. market alone contributed approximately 50% of total revenue. Gaming Monitors, Nintendo Switch, and PlayStation Bundles consistently accounted for 85% of revenue. While both unique and repeat customer counts doubled in 2020, the repeat purchase rate declined slightly from 2.1% to 1.9%, indicating difficulty driving second purchases. The direct marketing channel remained the primary revenue driver, generating 85% of total sales, while the website dominated as the main purchase platform with 97% of total revenue.
 ## Objectives
 The objective of this analysis is to examine online order data from January 2019 to December 2020. The analysis aims to uncover key trends in sales, customer behavior, and performance across regions, countries, marketing channels, and purchase platforms, as well as identify data quality issues.
+## Executive Summary
+Gamezone experienced strong sales growth from 2019 to 2020, with annual revenue surging by 163% amid the pandemic. The U.S. market alone contributed approximately 50% of total revenue. Gaming Monitors, Nintendo Switch, and PlayStation Bundles consistently accounted for 85% of revenue. While both unique and repeat customer counts doubled in 2020, the repeat purchase rate declined slightly from 2.1% to 1.9%, indicating difficulty driving second purchases. The direct marketing channel remained the primary revenue driver, generating 85% of total sales, while the website dominated as the main purchase platform with 97% of total revenue.
 ## Data overview
 <p align="center">
   <img src="https://github.com/user-attachments/assets/48b30b7e-0265-4653-9d93-17f03d8733b9" alt="Dataset ERD"/>
