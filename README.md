@@ -20,11 +20,13 @@ The objective of this analysis is to examine online order data from January 2019
 - **Region Table:** Lists all country codes (e.g.,VN, UK) and region accordingly (e.g., NA, EMEA)
 
 **Data Quality Notes:** Several data quality issues were identified and addressed during the preprocessing stage (e.g., missing values, inconsistent product names). All issues, transformations and fixes (if possible) are documented in the issue log for full transparency.
+
+## Insights Deep Dive
 <p align="center">
   <img src="https://github.com/user-attachments/assets/dcc3033a-b617-4518-9f42-da6127101191"/>
 </p>
 
-## Sales trend and growth rates
+### Sales trend and growth rates
 - Between 2019 and 2020, Gamezone generated an average annual revenue of $2.8 million with approximately 10,000 orders per year.
 - In 2020, sales experienced a significant 163% increase compared to 2019, largely driven by the surge in online shopping during the pandemic.
 - Seasonality patterns were observed:
@@ -37,25 +39,25 @@ The objective of this analysis is to examine online order data from January 2019
 - All regions saw strong year-over-year growth in 2020 across key metrics. Among them:
     - APAC emerged as a high-potential market, with ~200% growth in sales and a ~50% increase in Average Order Value (AOV).
     - LATAM led in order volume growth, with ~140% more orders and ~190% growth in annual revenue.
-## Key product performance
+### Key product performance
 - In 2020, the Sony PlayStation Bundle saw a dramatic surge in performance, with nearly 400% year-over-year growth in both revenue and order volume.
 - Across 2019 - 2020, three products (Gaming Monitor, Nintendo Switch, and PlayStation Bundle) consistently accounted for 85% of total revenue. Notably, the Sony PlayStation Bundle saw a significant decline in revenue share, dropping from 35% in 2019 to 23% in 2020. In contrast, the Nintendo Switch’s revenue share doubled from 12% to 25%, overtaking the PS5 Bundle as the second strongest revenue driver in 2020.
 - The Gaming Monitor remained the top-performing product, generating $1.9 million, which equals 32% of total revenue over the two-year period.
 - The Nintendo Switch led in order volume, representing 48% of all orders and contributing $1.5 million in revenue, making it the second-highest revenue generator.
 - The JBL Quantum 100 Gaming Headset accounted for approximately 20% of total orders, yet contributed less than 2% of revenue, likely due to its low unit price or promotional bundling
 
-## Customers Growth and Repeat Purchase Trends
+### Customers Growth and Repeat Purchase Trends
 - Gamezone’s unique customer base more than doubled from 2019 to 2020, reflecting strong acquisition growth.
 - While the number of repeat customers also doubled, increasing from 116 to 214, the repeat purchase rate declined from 2.1% in 2019 to 1.9% in 2020, signaling significant challenges in customer retention.
 
-## Sales by Marketing Channel and Purchase Platform
+### Sales by Marketing Channel and Purchase Platform
 - The direct channel is the dominant sales driver, accounting for 85% of total revenue ($4.8M).
 - Despite generating just 3.4% of total orders, affiliate channels deliver the highest Average Order Value (AOV) at $309, highlighting their value in high-ticket conversions. In contrast, email campaigns have the lowest AOV at $185, suggesting smaller or more promotional transactions.
 - Excluding unknown channels, social media is the weakest-performing channel, contributing only ~1.2% of revenue and ~1.5% of orders across 2019–2020.
 - Affiliate channels have the highest average order value (AOV) at $309 while only account for only 3.4% of total orders, while email campaigns have the lowest AOV at $185.
 - By purchase platform: The website is the primary sales channel, contributing 97% of total revenue ($5.5M) with an AOV of $300. Meanwhile, the mobile app underperforms, bringing in only $138K in sales and an AOV of $80.
 
-## Recommendations
+### Recommendations
 #### Maximizing Product Potential
 
 - Double Down on High-Performers
@@ -95,13 +97,13 @@ The objective of this analysis is to examine online order data from January 2019
     - Leverage local influencers, payment methods, and promotions tailored to cultural and pricing sensitivities.
     - Launch micro-pilot campaigns in priority markets of each region before scaling.
 
-## Clarifying Questions, Assumptions, and Caveats
-### Questions for Stakeholders Prior to Project Advancement
+#### Clarifying Questions, Assumptions, and Caveats
+#### Questions for Stakeholders Prior to Project Advancement
 - Types of marketing channels clarification: How is the direct marketing channel distinguished from the email channel and social media channel?
 
-### Assumptions 
+#### Assumptions 
 - I assumed that one product can have different product IDs and prices across different sales channels, countries and regions
 - I will assume that when a single user places two orders for identical products at the exact same time, these should be treated as a single logical purchase event representing multiple units of that product. Therefore, for analytical purposes, I will combine these into one logical order, counting the quantity of the product as 2.
 
-### Caveats
+#### Caveats
 - 145 seperate orders are generated by 2 different customers with 2 distinct user_id at the same time. For the purpose of this analysis, the first encountered user_id is assigned to for the problematic order_ids, the other is dropped.
