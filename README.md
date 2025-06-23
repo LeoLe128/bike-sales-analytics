@@ -1,4 +1,16 @@
 # Gamezone Sales Analysis
+**Table of Contents**
+
+* [Project Background](#Project Background)
+* [2. Project Goals](#2-project-goals)
+* [3. Architecture & Technology Stack](#3-architecture--technology-stack)
+* [4. Data Sources](#4-data-sources)
+* [5. Data Model & Schema](#5-data-model--schema)
+* [6. ETL/ELT Processes](#6-etlelt-processes)
+* [7. Data Governance & Quality](#7-data-governance--quality)
+* [8. How to Access & Use the Data](#8-how-to-access--use-the-data)
+* [9. Project Structure](#9-project-structure)
+
 ## Project Background
 Gamezone is an e-commerce company founded in 2018, specializing in new and refurbishsed gaming products all around the world. 
 Their primary selling channel is their online website but they also have a mobile app and they use various other marketing channels to find their potential customers.
