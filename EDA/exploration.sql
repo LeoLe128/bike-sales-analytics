@@ -242,14 +242,6 @@ SELECT
 FROM product_sales
 ORDER BY total_sales DESC
 
--- orders created by more than 1 users
-select 
-	ORDER_ID,
-	count(USER_ID)
-from cleaned_order_data
-group by ORDER_ID
-having COUNT(USER_ID) > 1
-
 --one-time vs unique customers
 
 SELECT *
